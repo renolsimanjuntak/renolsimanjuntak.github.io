@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css2?family=Goldman&display=swap';
+html,
+body {
+  background: #212121;
+  height: 100%;
+}
+.text-change-container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text-change {
+  font-family: 'Goldman', monospace;
+  font-weight: normal;
+  font-size: larger;
+  color: #00ffff;
+  filter: drop-shadow(0 0 0.3em rgba(200,200,200,0.3));
+}
+.dud {
+  color: rgba(200,30,30,0.8);
+  filter: drop-shadow(0 0 0.5em #f00);
+}
